@@ -1,0 +1,45 @@
+*{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#consigna__2{
+    width: 40pc;
+    height: 30pc;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    border: 3px #f80 solid;
+    border-radius: 10px;
+    background-color: rgb(255, 240, 214);
+}
+#consigna__2 > div{
+    border: 3px rgb(255, 177, 87) solid;
+    border-radius: 10px;
+    background-color: rgb(255, 223, 168);
+    padding: 5%;
+}
+#c2__1{
+    grid-area: 1 / 1 / 3 / 4;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+.list{
+    background-color: rgb(255, 253, 224);
+    border-radius: 7px;
+    border: 3px rgb(255, 244, 150) solid;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+#c2__2{
+    grid-area: 3 / 1 / 5 / 2;
+}

@@ -1,0 +1,71 @@
+*{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: row;
+}
+
+p{
+    display: inline;
+}
+h1{
+    display: inline;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    
+}
+#header__div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    height: 12vh;
+    border-radius: 50%;
+    border: 2px black solid;
+    margin: 4px  ;
+}
+nav{
+    background-color: beige;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+#main_principal{
+    display: flex;
+    justify-content: space-evenly;    
+}
+#main_secundario{
+    display: flex;
+    justify-content: space-evenly;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    background-color: #df983c;
+}
+.precio{
+    color: yellowgreen;
+}
+.producto > img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #559;
+}
+
+footer > p{
+    background-color: aliceblue;
+    padding: 4px ;
+}
