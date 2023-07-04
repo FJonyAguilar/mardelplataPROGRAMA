@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.cubo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#c1{
+    background-color: #22dddd80;
+    left: 20px;
+}
+#c2{
+    background-color: #dd22dd80;
+    z-index: 4;
+}
+#c3{
+    background-color: #dddd2280;
+    right: 20px;
+}
